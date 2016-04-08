@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:background="#aaff7094"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+   <Button
+       android:id="@+id/pip"
+       android:layout_alignParentLeft="true"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/pip"
+       />
+   <Button
+       android:id="@+id/close"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_toRightOf="@id/pip"
+       android:text="@string/close"
+       />
+</RelativeLayout>

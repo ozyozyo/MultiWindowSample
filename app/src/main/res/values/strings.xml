@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MultiWindowSample</string>
+    <string name="tap_me">tap me :)</string>
+    <string name="close">close :(</string>
+    <string name="pip">pip</string>
+</resources>
